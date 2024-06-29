@@ -1,5 +1,6 @@
 # Decentralised Chatting Application With Metamask
 The "Chat" defines a decentralized application (DApp) facilitates a messaging system where users can send and receive messages from each other with the help of Metamask Wallet . It also uses a Hardhat Development Environment to initiate a blockchain and provides local development network. Predefined ABI is used to interact between Smart Contract and Front End.
+Video Explanation https://www.loom.com/share/9c66b50a45624d968455db1833de0e06
 
 ## Requirements
 1. VisualStudioCode Or Any Other Environment 
