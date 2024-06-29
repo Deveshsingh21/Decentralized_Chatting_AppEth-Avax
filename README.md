@@ -8,8 +8,8 @@ Video Explanation https://www.loom.com/share/9c66b50a45624d968455db1833de0e06
 3. MetaMask extension installed - Download MetaMask
 
 ## Getting Started 
-1. Download the Githubrrepository https://github.com/MetacrafterChris/SCM-Starter.git or clone it directly in VsStudioCode .
-2. Edit the Assesment.sol and index.js file to add more functions and make it more interactive.
+1. Download the Githubrrepository https://github.com/Deveshsingh21/Decentralized_Chatting_AppEth-Avax or clone it directly in VsStudioCode .
+2. You can Edit the chat.sol and index.js file to add more functions and make it more interactive.
 3. Open a terminal and Type  ```npm install``` to install the dependencies.
 4. In the second terminal  type ```npx hardhat node``` to simulate a blockchain.
 5. In the third terminal, type: ```npx hardhat run --network localhost scripts/deploy.js```.
