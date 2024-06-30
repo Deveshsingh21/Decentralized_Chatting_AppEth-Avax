@@ -86,7 +86,7 @@ export default function HomePage() {
   // const initUser = () => {
   //   // Check to see if user has Metamask
   //   if (!ethWallet) {
-  //     return <p>Please install Metamask in order to use this ATM.</p>;
+  //     return <p>Please install Metamask in order to use this Chatting application.</p>;
   //   }
 
   //   // Check to see if user is connected. If not, connect to their account
