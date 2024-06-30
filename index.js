@@ -83,95 +83,9 @@ export default function HomePage() {
     }
   };
 
-  // const initUser = () => {
-  //   // Check to see if user has Metamask
-  //   if (!ethWallet) {
-  //     return <p>Please install Metamask in order to use this Chatting application.</p>;
-  //   }
 
-  //   // Check to see if user is connected. If not, connect to their account
-  //   if (!account) {
-  //     return (
-  //       <button onClick={connectAccount}>
-  //         Please connect your Metamask wallet
-  //       </button>
-  //     );
-  //   }
-
-  //   // if (balance == undefined) {
-  //   //   getBalance();
-  //   // }
-
-  //   return (
-  //     <div>
-  //       <p>Your Account: {account}</p>
-  //       <button
-  //         onClick={() => {
-  //           setSendMessageBtn(!sendMessageBtn); // inverse the button state i.e. false to true and vice versa
-  //         }}
-  //       >
-  //         Send a message
-  //       </button>
-  //       {sendMessageBtn ? (
-  //         <div>
-  //           <input
-  //             placeholder="Enter the recipient's address 0x5a..."
-  //             type="text"
-  //             onChange={(e) => {
-  //               setRecipientAddress(e.target.value);
-  //             }}
-  //           ></input>
-  //           <input
-  //             placeholder="Enter you're message like 'Hello world'"
-  //             type="text"
-  //             onChange={(e) => {
-  //               setRecipientMessage(e.target.value);
-  //             }}
-  //           ></input>
-  //           <button
-  //             onClick={async () => {
-  //               if (atm) {
-  //                 let tx = await atm.sendMessage(
-  //                   recipientAddress,
-  //                   recipientMessage
-  //                 );
-  //                 await tx.wait();
-  //               }
-  //             }}
-  //           >
-  //             Send Message
-  //           </button>
-  //         </div>
-  //       ) : (
-  //         <div />
-  //       )}
-  //       <button
-  //         onClick={() => {
-  //           setReceiveMessageBtn(!receiveMessageBtn);
-  //           getAllMessages();
-  //         }}
-  //       >
-  //         See all the received messages
-  //       </button>
-  //       {receiveMessageBtn ? (
-  //         senderList.map((sender, index) => {
-  //           return (
-  //             <div>
-  //               <div>{sender}</div>
-  //               <ul>
-  //                 {receivedMessagesList[index].map((msg, msgIndex) => {
-  //                   return <li key={msgIndex}>{msg}</li>;
-  //                 })}
-  //               </ul>
-  //             </div>
-  //           );
-  //         })
-  //       ) : (
-  //         <div />
-  //       )}
-  //     </div>
-  //   );
-  // };
+ 
+ 
 
   const initUser = () => {
     // Check to see if user has Metamask
